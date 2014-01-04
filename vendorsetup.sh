@@ -14,5 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo full_galaxysbmtd-userdebug
 add_lunch_combo omni_galaxysbmtd-userdebug
