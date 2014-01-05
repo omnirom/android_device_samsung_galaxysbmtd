@@ -21,9 +21,6 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-# Pull in GSM-specific stuff such as APNs
-$(call inherit-product, vendor/omni/config/gsm.mk)
-
 # Inherit device configuration
 $(call inherit-product, device/samsung/galaxysbmtd/device.mk)
 
