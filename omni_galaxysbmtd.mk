@@ -24,6 +24,9 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Inherit device configuration
 $(call inherit-product, device/samsung/galaxysbmtd/device.mk)
 
+# Galaxy S uses high-density artwork where available
+PRODUCT_LOCALES += hdpi
+
 # Device identifier
 PRODUCT_RELEASE_NAME := GalaxyS
 PRODUCT_DEVICE := galaxysbmtd
