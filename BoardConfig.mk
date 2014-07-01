@@ -23,7 +23,7 @@
 BOARD_SECOND_CAMERA_DEVICE := /dev/video2
 
 # Kernel Config
-TARGET_KERNEL_CONFIG := custom_galaxysbmtd_defconfig
+TARGET_KERNEL_CONFIG := omni_galaxysbmtd_defconfig
 
 # FM Radio
 BOARD_HAVE_FM_RADIO := true
