@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2b432935_119becc1",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 1000515
+      },
+      "writtenOn": "2014-11-26T02:15:31Z",
+      "side": 1,
+      "message": "Is it better?\n\u003c!-- bool name\u003d\"config...\"\u003e...\u003cbool --\u003e",
+      "revId": "ea7582bfe70e51b06930ecfb6965196accaa6726",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
