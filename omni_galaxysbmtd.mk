@@ -18,14 +18,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit Omni GSM telephony parts
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
-# use low fps bootanimation
-USE_LOWFPS_BOOTANI := true
-
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/galaxysbmtd/device.mk)
+
+# Galaxy S uses high-density artwork where available
+PRODUCT_LOCALES += hdpi
 
 # Device identifier
 PRODUCT_RELEASE_NAME := GalaxyS
